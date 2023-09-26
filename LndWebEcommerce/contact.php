@@ -4,7 +4,7 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$from = 'Orion Contact Form'; 
-		$to = 'example@yourmail.com'; 
+		$to = 'contacto@cassen.com'; 
 		$subject = $_POST['subject']; 
 		
 		$body = "From: $name\n E-Mail: $email\n Subject: $subject\n Message:\n $message";
